@@ -42,21 +42,11 @@ the generation of a class list and an automatic constructor.
 -(void)viewWillAppear:(BOOL)arg1 {
 
 }
--(void)powerDownViewAnimateOutCompleted:(id)arg1 {
-
-}
--(void)powerDownViewWillAnimateIn:(id)arg1 {
-
-}
--(void)powerDownViewWillAnimateOut:(id)arg1 {
-
-}
--(void)powerDownViewRequestPowerDown:(id)arg1 {
-
-}
--(void)powerDownViewRequestCancel:(id)arg1 {
-
-}
+//-(void)powerDownViewAnimateOutCompleted:(id)arg1;
+//-(void)powerDownViewWillAnimateIn:(id)arg1;
+//-(void)powerDownViewWillAnimateOut:(id)arg1;
+//-(void)powerDownViewRequestPowerDown:(id)arg1;
+//-(void)powerDownViewRequestCancel:(id)arg1;
 -(BOOL)shouldDisableSiri {
 	return NO;
 }
@@ -73,9 +63,7 @@ the generation of a class list and an automatic constructor.
 	return 0;
 }
 //-(id<SBPowerDownViewControllerDelegate>)delegate;
--(void)setDelegate:(id<SBPowerDownViewControllerDelegate>)arg1 {
-
-}
+//-(void)setDelegate:(id<SBPowerDownViewControllerDelegate>)arg1;
 -(void)viewDidDisappear:(BOOL)arg1 {
 
 }
@@ -83,7 +71,7 @@ the generation of a class list and an automatic constructor.
 
 }
 -(BOOL)_canShowWhileLocked {
-	retutn NO;
+	return NO;
 }
 -(void)_beginTimeTracking {
 
