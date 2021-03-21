@@ -1,0 +1,9 @@
+Package: ir.parsa2820.powergg
+Name: PowerGG
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Parsa Mohammadian
+Author: Parsa Mohammadian
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
