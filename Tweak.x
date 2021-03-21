@@ -32,3 +32,7 @@ the generation of a class list and an automatic constructor.
 // Always make sure you clean up after yourself; Not doing so could have grave consequences!
 %end
 */
+%hook SBPwerDownController
+-(void)noOperation {
+}
+%end
