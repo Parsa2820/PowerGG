@@ -36,7 +36,94 @@ the generation of a class list and an automatic constructor.
 -(BOOL)handleLockButtonPress {
 	return NO;
 }
+-(int)_preferredStatusBarVisibility {
+	return 0;
+}
+-(void)viewWillAppear:(BOOL)arg1 {
+
+}
+-(void)powerDownViewAnimateOutCompleted:(id)arg1 {
+
+}
+-(void)powerDownViewWillAnimateIn:(id)arg1 {
+
+}
+-(void)powerDownViewWillAnimateOut:(id)arg1 {
+
+}
+-(void)powerDownViewRequestPowerDown:(id)arg1 {
+
+}
+-(void)powerDownViewRequestCancel:(id)arg1 {
+
+}
+-(BOOL)shouldDisableSiri {
+	return NO;
+}
+-(void)viewDidLoad {
+
+}
 -(BOOL)shouldDisableControlCenter {
+	return NO;
+}
+-(void)viewWillDisappear:(BOOL)arg1 {
+
+}
+-(long long)idleTimerMode {
+	return 0;
+}
+//-(id<SBPowerDownViewControllerDelegate>)delegate;
+-(void)setDelegate:(id<SBPowerDownViewControllerDelegate>)arg1 {
+
+}
+-(void)viewDidDisappear:(BOOL)arg1 {
+
+}
+-(void)viewDidLayoutSubviews {
+
+}
+-(BOOL)_canShowWhileLocked {
+	retutn NO;
+}
+-(void)_beginTimeTracking {
+
+}
+-(void)_incrementCountForKey:(id)arg1 {
+
+}
+-(void)_endTimeTrackingIncludingReportWithKey:(id)arg1 {
+
+}
+-(void)_resetScreenBrightness {
+
+}
+-(void)powerDownViewDidBeginSlide:(id)arg1 { 
+
+}
+-(void)powerDownView:(id)arg1 didUpdateSlideWithValue:(double)arg2 {
+
+}
+-(void)powerDownViewDidCompleteSlide:(id)arg1 {
+
+}
+-(void)powerDownViewDidCancelSlide:(id)arg1 {
+
+}
+-(void)powerDownViewDidReceiveCancelButtonAction:(id)arg1 {
+
+}
+-(void)powerDownViewDidFireIdleTimer:(id)arg1 {
+
+}
+-(BOOL)allowsStackingOverlayContentAbove {
+	return NO;
+}
+//-(id)newTransientOverlayDismissalTransitionCoordinator;
+//-(id)newTransientOverlayPresentationTransitionCoordinator;
+-(BOOL)shouldDisableBanners {
+	return NO;
+}
+-(BOOL)shouldPendAlertItems {
 	return NO;
 }
 %end
