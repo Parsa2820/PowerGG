@@ -9,4 +9,4 @@ TWEAK_NAME = PowerGG
 PowerGG_FILES = Tweak.x
 PowerGG_CFLAGS = -fobjc-arc
 
-include $(THEOS_MAKE_PATH)/tweak.mk
+include $(THEOS)/makefiles/tweak.mk
